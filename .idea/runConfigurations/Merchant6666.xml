@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Merchant6666" type="Application" factoryName="Application" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="Merchant" />
+    <module name="SCA_Proiect" />
+    <option name="PROGRAM_PARAMETERS" value="6666" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

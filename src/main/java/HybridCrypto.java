@@ -27,6 +27,7 @@ public class HybridCrypto {
             toEncrypt.addProperty(key, Base64.getEncoder().encodeToString(encryptedValue));
         }
 
+
         // Encrypt the AES key used using RSA
         Cipher rsa = Cipher.getInstance("RSA/ECB/PKCS1Padding");
         rsa.init(Cipher.ENCRYPT_MODE, publicRsaKey);
